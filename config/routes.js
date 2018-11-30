@@ -18,7 +18,7 @@ function generateToken(user) {
     roles: []
   };
 
-  const secret = "secret";
+  const secret = "Why can’t banks keep secrets? There are too many tellers!";
 
   const options = {
     expiresIn: "1h"
